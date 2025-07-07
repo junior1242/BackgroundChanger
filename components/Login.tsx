@@ -36,6 +36,7 @@ const Login = () => {
                 Login
               </Text>
             </TouchableOpacity>
+            
           </View>
         </View>
       </View>
