@@ -1,6 +1,6 @@
 # TruckBooking App
 
-## Background Changer 
+## Background Changer
 
 This app allows users to change the background of the application or website using React Native with Expo.
 
