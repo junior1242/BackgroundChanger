@@ -1,9 +1,8 @@
 import "@/global.css";
 import React, { useState } from "react";
-import { View, Image, Text, TouchableOpacity, StyleSheet } from "react-native";
+import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import LoginForm from "./intro/login/LoginForm";
 import SignupForm from "./intro/signup/SignupForm";
-// import logo from "../assets/images/logo_trucksy.jpg"; // Adjust the path as needed based on your folder structure
 const AuthHeader: React.FC = () => {
   const [isLogin, setIsLogin] = useState(true);
 
@@ -58,17 +57,16 @@ const AuthHeader: React.FC = () => {
 
 export default AuthHeader;
 
-
 const styles = StyleSheet.create({
   logo: {
     width: 150,
     height: 150,
     alignSelf: "center",
-    borderRadius: 50, // Adjust the radius for a circular image
-    overflow: "hidden", // Ensures the image is clipped to the border radius
-    borderColor: "#000", // Optional: Add a border color
-    backgroundColor: "#fff", // Optional: Add a background color
-    resizeMode: "cover", // Ensures the image covers the entire area
+    borderRadius: 50,
+    overflow: "hidden",
+    borderColor: "#000",
+    backgroundColor: "#fff",
+    resizeMode: "cover",
     justifyContent: "center",
     alignItems: "center",
     shadowColor: "#000",
@@ -77,4 +75,4 @@ const styles = StyleSheet.create({
       height: 2,
     },
   },
-})
+});
