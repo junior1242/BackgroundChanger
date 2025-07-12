@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "TruckBooking",
-    "slug": "TruckBooking",
+    "name": "TruckBookingApp",
+    "slug": "TruckBookingApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
